@@ -1,0 +1,23 @@
+{
+  "name": "talksphere",
+  "version": "1.0.0",
+  "description": "fantastic chating in rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "\"Sourav Saxena\"",
+  "license": "ISC",
+  "dependencies": {
+    "@socket.io/redis-adapter": "^7.2.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "redis": "^4.5.0",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
